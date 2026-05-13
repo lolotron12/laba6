@@ -10,7 +10,7 @@ namespace CalculatorApp
     {
         public int Add(int x, int y)
         {
-            return x + y;//считает сумму
+            return x + y;//считает сумму этих чисел
         }
     }
 }
