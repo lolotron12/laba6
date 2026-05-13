@@ -2,9 +2,9 @@ name: .NET CI  # Название workflow
 
 on:
   push:    # Запускать workflow при пуше в ветку main
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request: # Запускать workflow при создании pull request в ветку main
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
